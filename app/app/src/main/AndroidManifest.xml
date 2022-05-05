@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.geogame">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Geogame"
+        tools:targetApi="m">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAgWwxFTJSF18XjVW85Ppp8ji549a0t9S0" />
+
+        <activity
+            android:name=".ui.MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Register"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PlayGame"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CreateChallenge"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CreateChallenge2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Leaderboards"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MakeGuess"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ChooseGameType"
+            android:exported="false" />
+        <activity
+            android:name=".ui.GameReport"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

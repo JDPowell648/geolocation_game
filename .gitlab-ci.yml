@@ -1,0 +1,45 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - backend testing
+  - frontend testing
+  - deploy
+
+backend_testing:
+  stage: backend testing
+  tags:
+    - backend
+  only:
+    refs:
+      - main
+  script:
+    - cd backend
+    - mkdir seeders
+    - mkdir migrations
+    - npm install
+    - npm test
+
+frontend_testing:
+  stage: frontend testing
+  tags:
+    - frontend
+  only:
+    - main
+  script:
+    - cd backend
+
+# deploy:
+#   stage: deploy
+#   tags:
+#     - test
+#   only:
+#     refs:
+#       - main
+#   script:
+#     - cd backend
+#     - npm install
+#     - npm run server

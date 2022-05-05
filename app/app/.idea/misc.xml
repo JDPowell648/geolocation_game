@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout-w936dp/activity_login.xml" value="0.10080336648814078" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout/activity_challenge.xml" value="0.2" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout/activity_gameplay.xml" value="0.264" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout/activity_login.xml" value="0.1334853090172239" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout/main_menu.xml" value="0.264" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout/mainmenu.xml" value="0.1334853090172239" />
+        <entry key="..\:/Project/geolocation_game/app/app/src/main/res/layout/profile.xml" value="0.1334853090172239" />
+<<<<<<< HEAD
+=======
+=======
+        <entry key="..\:/Users/Josh/geolocation_game/app/app/src/main/res/layout/activity_create_account.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/Josh/geolocation_game/app/app/src/main/res/layout/activity_login.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/Josh/geolocation_game/app/app/src/main/res/layout/mainmenu.xml" value="0.264" />
+        <entry key="..\:/Users/Josh/geolocation_game/app/app/src/main/res/layout/profile.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/Josh/geolocation_game/app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2335" />
+>>>>>>> 18a2a2d8b67bcf85e6b71e3d2b881ff3cd855033
+>>>>>>> 2d28074cb159c368475c71b393ad5cea772e9fa4
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

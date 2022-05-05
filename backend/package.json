@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon --delay 500ms server.js",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --forceExit",
+    "pretest": "node createdb.js && cross-env NODE_ENV=test npm run migrate:reset",
+    "migrate:reset": "npx sequelize-cli db:migrate:undo:all && npm run migrate",
+    "migrate": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.5.1",
+    "mysql-import": "^5.0.21",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.28",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "minimist": "^1.2.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
